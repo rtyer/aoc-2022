@@ -35,7 +35,7 @@ fn main() -> Result<(), io::Error> {
         }
     }
 
-    println!("The most calories carried are {:?}", most_calories);
+    println!("The top three most calories carried are {:?}", most_calories);
     println!("Sum of top three: {}", most_calories.iter().sum::<i32>());
 
     Ok(())
