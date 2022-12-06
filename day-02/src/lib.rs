@@ -120,7 +120,6 @@ pub fn part2(input: &str) -> u32 {
         .map(|line| {
             //for each line in the file
             let moves:Vec<&str> = line
-                //split the line into elf and your moves and then map them to the enum
                 .split(" ")
                 .collect();
 
